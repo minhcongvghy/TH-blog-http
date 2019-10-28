@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogEditComponent } from './blog-edit/blog-edit.component';
+import { TodoComponent } from './todo/todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
     BlogDetailComponent,
-    BlogEditComponent
+    BlogEditComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
